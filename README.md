@@ -12,7 +12,7 @@ Este é um aplicativo desenvolvido com Flutter que consome a API do Studio Ghibl
 
 - **Flutter**: Framework para desenvolvimento de aplicativos móveis.
 - **Dart**: Linguagem de programação utilizada no Flutter.
-- **API do Studio Ghibli**: API pública para obter informações sobre os filmes do Studio Ghibli.
+- **API do Studio Ghibli**: [API](https://ghibliapi.vercel.app) pública para obter informações sobre os filmes do Studio Ghibli.
 
 ## Instalação
 
@@ -20,9 +20,3 @@ Este é um aplicativo desenvolvido com Flutter que consome a API do Studio Ghibl
 
 - [Flutter](https://flutter.dev/docs/get-started/install) instalado em sua máquina.
 - [Dart](https://dart.dev/get-dart) instalado.
-
-### Clonando o Repositório
-
-```bash
-git clone https://github.com/raquel1s/studioghibli_api.git
-cd studioghibli_api

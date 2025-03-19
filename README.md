@@ -24,5 +24,5 @@ Este é um aplicativo desenvolvido com Flutter que consome a API do Studio Ghibl
 ### Clonando o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/flutter-studio-ghibli-app.git
-cd flutter-studio-ghibli-app
+git clone https://github.com/raquel1s/studioghibli_api.git
+cd studioghibli_api

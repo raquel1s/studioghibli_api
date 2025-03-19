@@ -58,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       );
                     },
                     leading: CachedNetworkImage(
-                      imageUrl: film.image,
+                      imageUrl: film.movie_banner,
                       width: 50,
                       height: 50,
                       fit: BoxFit.cover,

@@ -64,9 +64,9 @@ class _DetailsScreenState extends State<DetailsScreen> {
                         ),
                         const SizedBox(height: 25),
                         CachedNetworkImage(
-                          imageUrl: film.movie_banner,
+                          imageUrl: film.image,
                           width: 400,
-                          height: 300,
+                          height: 600,
                           fit: BoxFit.cover,
                         ),
                         const SizedBox(height: 25),

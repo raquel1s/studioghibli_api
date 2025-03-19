@@ -1,16 +1,22 @@
-# studio_ghibli_api
+# Flutter Studio Ghibli App
 
-A new Flutter project.
+Este é um aplicativo desenvolvido com Flutter que consome a API do Studio Ghibli para exibir informações sobre filmes, personagens e outros dados relacionados aos filmes do Studio Ghibli.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Exibição de uma lista de filmes do Studio Ghibli.
+- Detalhes do filme, incluindo título, descrição e imagens.
+- Informações sobre os personagens de cada filme.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**: Framework para desenvolvimento de aplicativos móveis.
+- **Dart**: Linguagem de programação utilizada no Flutter.
+- [**API do Studio Ghibli**](https://ghibliapi.vercel.app): API pública para obter informações sobre os filmes do Studio Ghibli.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalação
+
+### Pré-requisitos
+
+- [Flutter](https://flutter.dev/docs/get-started/install) instalado em sua máquina.
+- [Dart](https://dart.dev/get-dart) instalado.

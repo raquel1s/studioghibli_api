@@ -6,6 +6,7 @@ class Film {
   final String description;
   final String release_date;
   final String running_time;
+  final List<dynamic> characters;
 
   Film({
     required this.title,
@@ -14,7 +15,8 @@ class Film {
     required this.movie_banner,
     required this.description,
     required this.release_date,
-    required this.running_time
+    required this.running_time,
+    required this.characters,
   });
 
   factory Film.fromJson(Map<String, dynamic> json){
@@ -25,7 +27,8 @@ class Film {
       movie_banner: json['movie_banner'], 
       description: json['description'], 
       release_date: json['release_date'], 
-      running_time: json['running_time']
+      running_time: json['running_time'],
+      characters: json['people']
     );
   }
 }

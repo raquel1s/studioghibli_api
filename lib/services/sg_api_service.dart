@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:studio_ghibli_api/models/character.dart';
 import 'package:studio_ghibli_api/models/film.dart';
 import 'package:http/http.dart' as http;
 
@@ -14,4 +15,15 @@ class ApiService {
       throw Exception('Falha ao carregar os filmes');
     }
   }
+
+  Future<List<Character>> fetchCharacter() async {
+    final response = await http.get(Uri.parse('$baseUrl/people'));
+    if (response.statusCode == 200) {
+      final List<dynamic> data = json.decode(response.body);
+      return data.map((json) => Character.fromJson(json)).toList();
+    } else {
+      throw Exception('Falha ao carregar os filmes');
+    }
+  }
+
 }

@@ -34,6 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
             return Center(child: Text('Erro: ${snapshot.error}'));
           } else if (snapshot.hasData) {
             final films = snapshot.data!;
+            
             return ListView.builder(
               itemCount: films.length,
               itemBuilder: (context, index) {
